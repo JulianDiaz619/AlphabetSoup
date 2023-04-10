@@ -11,5 +11,5 @@ The purpose of this analysis was to create a deep learning neural network model 
 * For the neural network model, I selected two hidden layers, the first one having 80 neurons and the second one having 30 neurons. The activation function used in the hidden layers was ReLU, and the output layer had one neuron with a sigmoid activation function to produce a binary output.
 * I was not able to achieve the target model performance of an accuracy higher than 75%. The highest accuracy achieved was 73% after several attempts to optimize the model.
 * To try and increase the model's performance, I removed insignificant columns from the dataframe, added more hidden layers, and changed the number of neurons. However, these changes did not result in a significant improvement in the accuracy of the model.
-Summary:
+## Summary:
 In conclusion, the deep learning model created using TensorFlow was not able to achieve the target model performance of an accuracy higher than 75%. Despite the attempts to optimize the model, the highest accuracy achieved was only 73%. It is possible that a different model such as a Random Forest or Gradient Boosting algorithm might be more effective in solving this classification problem.
