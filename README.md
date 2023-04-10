@@ -3,11 +3,11 @@
 ## Purpose of analysis:
 The purpose of this analysis was to create a deep learning neural network model using TensorFlow that would be able to classify whether or not a charity donation would be successful based on the organization's features such as the organization's type, area of focus, and income.
 
-Results:
-Data Preprocessing
-The target variable for the model is the "IS_SUCCESSFUL" column, which indicates whether or not a charity donation was successful.
-The features for the model include all the other columns in the dataset except for the "EIN" and "NAME" columns which are neither targets nor features, and should be removed from the input data.
-Compiling, Training, and Evaluating the Model
+## Results:
+### Data Preprocessing
+*The target variable for the model is the "IS_SUCCESSFUL" column, which indicates whether or not a charity donation was successful.
+*The features for the model include all the other columns in the dataset except for the "EIN" and "NAME" columns which are neither targets nor features, and should be removed from the input data.
+### Compiling, Training, and Evaluating the Model
 For the neural network model, I selected two hidden layers, the first one having 80 neurons and the second one having 30 neurons. The activation function used in the hidden layers was ReLU, and the output layer had one neuron with a sigmoid activation function to produce a binary output.
 I was not able to achieve the target model performance of an accuracy higher than 75%. The highest accuracy achieved was 73% after several attempts to optimize the model.
 To try and increase the model's performance, I scaled the input data, added more hidden layers, changed the number of neurons, and tried different activation functions. However, these changes did not result in a significant improvement in the accuracy of the model.
